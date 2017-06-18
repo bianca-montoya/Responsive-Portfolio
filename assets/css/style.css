@@ -403,6 +403,7 @@ input[type=submit] {
 @media screen and (max-width: 640px)  {
     #masthead {
         text-align: center;
+        position: static;
     }
 
     #logo {
@@ -429,7 +430,7 @@ input[type=submit] {
     }
 
     #main-container {
-        padding-top: 200px;
+        padding-top: 0;
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
